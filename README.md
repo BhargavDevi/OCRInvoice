@@ -1,42 +1,20 @@
 # 🧾 InvoiceIQ – Smart Invoice Scanner & Dashboard
 
+[Project I am working on]
+
 InvoiceIQ is a full-stack project that lets you upload invoice images or PDFs, extracts key details using OCR + NLP, and displays spending insights through a dashboard.
 
 🛠 Tech Stack
 
-Frontend: React.js, Chart.js
-
-Backend: Flask (Python), EasyOCR, pdf2image
-
-Database: MongoDB (with PyMongo)
+1.Frontend: React.js, Chart.js
+2.Backend: Flask (Python), EasyOCR, pdf2image
+3.Database: MongoDB (with PyMongo)
 
 🚀 Features
 
-Upload invoices (image or PDF)
+1.Upload invoices (image or PDF)
+2.Extract vendor name, total, due date
+3.Store data in MongoDB
+4.Visual dashboard for analytics
 
-Extract vendor name, total, due date
-
-Store data in MongoDB
-
-Visual dashboard for analytics
-
-📦 How to Run
-
-Backend:
-
-cd backend
-pip install -r requirements.txt
-python app.py
-
-Frontend:
-
-cd frontend
-npm install
-npm start
-
-📌 Notes
-
-Requires Python 3.x and Node.js
-
-MongoDB must be running locally or via Atlas
 
